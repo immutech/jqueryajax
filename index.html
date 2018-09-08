@@ -21,7 +21,7 @@
 </head>
 <body>
 
-	<h1>J-Query Animation</h1>
+	<h1>AJAX</h1>
 	<div class="circle"></div>
 
 	<script>
@@ -37,6 +37,11 @@
 				
 			},800);
 
+		});
+		$.get("testfile.html", function(data){
+		
+			alert(data);
+		
 		});
 
 	</script>
