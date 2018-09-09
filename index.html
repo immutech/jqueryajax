@@ -38,7 +38,8 @@
 			},800);
 
 		});
-		$.get("testfile.html", function(data){
+		$.ajax({
+			url:"testfile.html"}).done(function(data){
 		
 			alert(data);
 		
